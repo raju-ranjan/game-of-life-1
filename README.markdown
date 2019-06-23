@@ -4,6 +4,8 @@ This is a simple demonstration application used in the [Jenkins: The Definitive 
 
 The project is a simple multi-module Maven project. To build the whole project, just run `mvn install` from the root directory.
 
+[![Build Status](https://dev.azure.com/rajudevops05/Raju-Test1/_apis/build/status/raju-ranjan.game-of-life-1?branchName=master)](https://dev.azure.com/rajudevops05/Raju-Test1/_build/latest?definitionId=1&branchName=master)
+
 ## Running the game
 
 The application is a very simple online version of [Conway's 'game of life'](http://en.wikipedia.org/wiki/Conway's_Game_of_Life). To see what the game does, run `mvn install` as described above, thengo to the gameoflife-web directory and run `mvn jetty:run`. The application will be running on http://localhost:9090.
