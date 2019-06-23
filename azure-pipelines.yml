@@ -26,7 +26,10 @@ steps:
     testRunTitle: 'First-Test'
     codeCoverageToolOption: 'Cobertura'
     javaHomeOption: 'JDKVersion'
+    dkVersionOption: '1.8'
+    jdkArchitectureOption: 'x64'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     sonarQubeRunAnalysis: false
     pmdRunAnalysis: true
+    goals: 'package'
