@@ -204,7 +204,32 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+<repositories>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+         <id>dev-azure-com-devopscloud05-devopscloud05</id>
+         <url>https://pkgs.dev.azure.com/devopscloud05/_packaging/devopscloud05/maven/v1</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </repositories>
+   <distributionManagement>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+         <id>dev-azure-com-devopscloud05-devopscloud05</id>
+         <url>https://pkgs.dev.azure.com/devopscloud05/_packaging/devopscloud05/maven/v1</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </distributionManagement>
     <modules>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
