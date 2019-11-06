@@ -32,4 +32,4 @@ steps:
     mavenAuthenticateFeed: false
     sonarQubeRunAnalysis: false
     pmdRunAnalysis: true
-    goals: 'package'
+    goals: 'deploy'
