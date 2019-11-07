@@ -4,7 +4,7 @@ This is a simple demonstration application used in the [Jenkins: The Definitive 
 
 The project is a simple multi-module Maven project. To build the whole project, just run `mvn install` from the root directory.
 
-[![Build Status](https://dev.azure.com/rajudevops05/Raju-Test1/_apis/build/status/raju-ranjan.game-of-life-1?branchName=master)](https://dev.azure.com/rajudevops05/Raju-Test1/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/devopscloud05/game-of-life-1/_apis/build/status/raju-ranjan.game-of-life-1?branchName=master)](https://dev.azure.com/devopscloud05/game-of-life-1/_build/latest?definitionId=7&branchName=master)
 
 ## Running the game
 
