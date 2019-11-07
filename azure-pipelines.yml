@@ -18,6 +18,12 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- task: MavenAuthenticate@0
+  displayName: 'Maven Authenticate'
+  inputs:
+    artifactsFeeds: dev-azure-com-devopscloud05-devopscloud05
+    
+    
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
