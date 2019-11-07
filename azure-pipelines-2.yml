@@ -67,5 +67,5 @@ stages:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
               appName: $(webAppName)
-              package: '$(Pipeline.Workspace)/gameoflife-web/target/gameoflife.war'
+              package: '$(Pipeline.Workspace)/MyBuildOutputs/gameoflife-web/target/gameoflife.war'
 
